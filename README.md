@@ -35,11 +35,13 @@ A FastAPI-based text summarization system built using HuggingFace Transformers (
 ---
 
 ## 📂 Project Structure
-adaptive-text-summarizer/
-│── app.py
-│── index.html
-│── README.md
 
+```
+adaptive-text-summarizer/
+├── app.py          # FastAPI backend and model inference
+├── index.html      # Frontend UI
+└── README.md       # Project documentation
+```
 ---
 
 ## 📦 Installation
