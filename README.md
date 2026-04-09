@@ -50,3 +50,19 @@ adaptive-text-summarizer/
 git clone https://github.com/samriddha1bits-ship-it/adaptive-text-summarizer.git
 cd adaptive-text-summarizer
 pip install fastapi uvicorn transformers torch
+```
+---
+
+## ▶️ Run the Application
+
+1. Start the FastAPI server:
+
+```bash
+uvicorn app:app --reload
+```
+
+2. Open your browser and go to:
+
+http://127.0.0.1:8000
+
+3. Enter text in the UI and get summarized output.
